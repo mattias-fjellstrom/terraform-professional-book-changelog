@@ -4,6 +4,15 @@ You can buy the book on [leanpub.com/terraform-professional-certification](https
 
 ## Changes
 
+### 2024-10-23
+
+* Extended the example and discussion around `locals` in chapter 4.
+* Added an additional deciding factor between `for_each` and `count` in the discussion around these meta-arguments in chapter 4.
+* Clarified the description around nullable variables in chapter 4.
+* Removed the `key` attribute for the `backend` block in Figure 5.27.
+* Updated the text following Figure 6.17 to refer to the correct module path.
+* Clarified the example around `terraform_remote_state` to clearly talk about a producer configuration and a consumer configuration.
+
 ### 2024-10-08
 
 * Fixed the `dynamic` block example in Figure 4.47. The `local.ports` value was used as a list of objects in the `dynamic` block, even though it was a list of numbers.
