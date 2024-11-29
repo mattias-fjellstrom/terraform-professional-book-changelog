@@ -4,6 +4,12 @@ You can buy the book on [leanpub.com/terraform-professional-certification](https
 
 ## Changes
 
+### 2024-11-29
+
+* Updated all commands that export a plan file from `terraform plan -out=actions.tfplan` to `terraform plan -out="actions.tfplan"` due to the command not working on Powershell without the quotation marks. Updated the corresponding `terraform apply` commands as well.
+* Added a default value of `eu-west-1` for the variable block in Figure 3.35.
+* Extended the list of names in Acknowledgments
+
 ### 2024-10-23
 
 * Extended the example and discussion around `locals` in chapter 4.
