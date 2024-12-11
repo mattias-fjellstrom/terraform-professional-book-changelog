@@ -4,13 +4,22 @@ You can buy the book on [leanpub.com/terraform-professional-certification](https
 
 ## Changes
 
-### 2024-11-29
+### AWS edition
+
+#### 2024-12-11
+
+* Added a sample code repository at [github.com/mattias-fjellstrom/terraform-professional-book-sample-code](https://github.com/mattias-fjellstrom/terraform-professional-book-sample-code).
+* Included references to the GitHub repository from the corresponding code samples in the book.
+* Added a subsection mentioning the GitHub repository in Chapter 1.
+* Replaced the _Terraform provider ecosystem_ image in Chapter 7.
+
+#### 2024-11-29
 
 * Updated all commands that export a plan file from `terraform plan -out=actions.tfplan` to `terraform plan -out="actions.tfplan"` due to the command not working on Powershell without the quotation marks. Updated the corresponding `terraform apply` commands as well.
 * Added a default value of `eu-west-1` for the variable block in Figure 3.35.
 * Extended the list of names in Acknowledgments
 
-### 2024-10-23
+#### 2024-10-23
 
 * Extended the example and discussion around `locals` in chapter 4.
 * Added an additional deciding factor between `for_each` and `count` in the discussion around these meta-arguments in chapter 4.
@@ -19,7 +28,7 @@ You can buy the book on [leanpub.com/terraform-professional-certification](https
 * Updated the text following Figure 6.17 to refer to the correct module path.
 * Clarified the example around `terraform_remote_state` to clearly talk about a producer configuration and a consumer configuration.
 
-### 2024-10-08
+#### 2024-10-08
 
 * Fixed the `dynamic` block example in Figure 4.47. The `local.ports` value was used as a list of objects in the `dynamic` block, even though it was a list of numbers.
 * Added an explicit `aws_vpc` resource to the example in Figure 4.47.
@@ -31,6 +40,6 @@ You can buy the book on [leanpub.com/terraform-professional-certification](https
 * Extended the example around Figure 3.32, 3.33, and 3.34 with clarifications for how to import a resource into your state and have Terraform generate the configuration for you.
 * Extended the list of names in Acknowledgments
 
-### 2024-10-02
+#### 2024-10-02
 
 * Initial book release
