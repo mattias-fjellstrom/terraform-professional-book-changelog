@@ -1,10 +1,30 @@
-# Changelog for Terraform Authoring and Operations Professional Study Guide (AWS edition)
+# Changelog for Terraform Authoring and Operations Professional Study Guide
 
-You can buy the book on [leanpub.com/terraform-professional-certification](https://leanpub.com/terraform-professional-certification).
+You can buy the digital edition of the book on Leanpub (delivered as both PDF and ePUB):
+
+* [AWS edition](https://leanpub.com/terraform-professional-certification).
 
 ## Changes
 
 ### AWS edition
+
+#### 2025-01-04
+
+This update is focused on the look-and-feel of the book, not on the technical content. This is in preparation for a printed edition of this book.
+
+* Updated the book format from A4 (210x297 mm) to technical trade (178x254 mm).
+* Changed from gray-scale to color for all code snippets.
+* Added a _Preface_ chapter in Part 1 of the book, thus renumbering the following chapters.
+* Moved the final words to its own final chapter.
+* Updated the accompanying sample repo to reflect the new chapter numbers and updated all the links in the book.
+* Updated screenshots in Chapter 3 (previously Chapter 2) due to updates to the look-and-feel of the AWS console.
+* Changed from using variables sets in HCP Terraform to using workspace variables in the example in Chapter 3. Removed a number of screenshots and some explanations due to this change.
+* Split the **JSON, YAML, CSV** aside into three separate asides because Leanpub could not generate one long aside without splitting it in weird ways across three pages.
+* Split the **Locals** aside into two separate asides (same reason as above).
+* Updated the GitHub repository references to be in the text instead of as footnotes. This is because in the print-ready PDF markdown links to websites are generated as footnotes.
+* Deleted a few superfluous footnotes that did not add any value.
+* General formatting of the book to look nice, this includes adding page-breaks, truncating output, resizing images, etc.
+* Moved _Target audience_ and _Visual elements of this book_ to the Introduction chapter.
 
 #### 2024-12-11
 
