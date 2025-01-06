@@ -8,6 +8,10 @@ You can buy the digital edition of the book on Leanpub (delivered as both PDF an
 
 ### AWS edition
 
+#### Not released
+
+* Minor changes to avoid having linebreaks on inline code snippets (e.g. in the middle of `module.network.aws_vpc.this` or similar).
+
 #### 2025-01-04
 
 This update is focused on the look-and-feel of the book, not on the technical content. This is in preparation for a printed edition of this book.
