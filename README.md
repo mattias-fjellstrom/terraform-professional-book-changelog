@@ -8,6 +8,11 @@ You can buy the digital edition of the book on Leanpub (delivered as both PDF an
 
 ### AWS edition
 
+#### 2025-01-21
+
+* Fix minor typos in a CLI command based on feedback
+* Resized a few images to fit the page better
+
 #### 2025-01-04
 
 This update is focused on the look-and-feel of the book, not on the technical content. This is in preparation for a printed edition of this book.
