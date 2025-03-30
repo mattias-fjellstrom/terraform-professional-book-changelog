@@ -8,6 +8,16 @@ You can buy the digital edition of the book on Leanpub (delivered as both PDF an
 
 ### AWS edition
 
+#### 2025-03-30
+
+* Fix formatting issues discovered in printed version of the book.
+* Updated wording in a few sentences throughout the book.
+* Added a footnote concerning updates to AWS S3 backend.
+* Replaced footnote link with a QR code for LinkedIn.
+* Changed text color for output boxes in Terraform diagrams from white to black for better contrast.
+* Updated colors on the cover to include AWS orange (`#FF9900`)
+* Fixed minor typos.
+
 #### 2025-01-21
 
 * Fix minor typos in a CLI command based on feedback
