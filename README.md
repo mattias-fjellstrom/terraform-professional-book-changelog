@@ -3,6 +3,7 @@
 You can buy the digital edition of the book on Leanpub (delivered as both PDF and ePUB):
 
 * [AWS edition](https://leanpub.com/terraform-professional-certification).
+* [Azure edition](https://leanpub.com/terraform-professional-certification-azure).
 
 ## Changes
 
@@ -76,5 +77,11 @@ This update is focused on the look-and-feel of the book, not on the technical co
 * Extended the list of names in Acknowledgments
 
 #### 2024-10-02
+
+* Initial book release
+
+### Azure edition
+
+#### 2025-04-01
 
 * Initial book release
